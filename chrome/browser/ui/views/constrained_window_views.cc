@@ -147,6 +147,7 @@ views::Widget* CreateWebModalDialogViews(views::WidgetDelegate* dialog,
 }
 
 // TODO(gbillock): Replace this with PopupManager calls.
+#if 0
 views::Widget* CreateBrowserModalDialogViews(views::DialogDelegate* dialog,
                                              gfx::NativeWindow parent) {
   views::Widget* widget =
@@ -167,3 +168,4 @@ views::Widget* CreateBrowserModalDialogViews(views::DialogDelegate* dialog,
   }
   return widget;
 }
+#endif
